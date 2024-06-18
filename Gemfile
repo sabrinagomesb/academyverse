@@ -65,6 +65,13 @@ group :development do
   # gem "spring"
 
   gem 'error_highlight', '>= 0.4.0', platforms: [:ruby]
+
+  gem 'devise', '~> 4.9'
+  gem 'faker'
+  gem 'font-awesome-sass', '~> 6.5.1'
+  gem 'htmlbeautifier'
+  gem 'rubocop-rails', require: false
+  gem 'solargraph'
 end
 
 group :test do
@@ -73,6 +80,3 @@ group :test do
   gem 'selenium-webdriver'
 end
 
-gem 'font-awesome-sass', '~> 6.5.1'
-
-gem 'devise', '~> 4.9'
